@@ -11,6 +11,7 @@ Projeto de Perguntas e Respostas Q&A
 ## Tecnologias utilizadas
 - ReactJs
 - Firebase
+- Typescript
 
 ## Available Scripts
 
