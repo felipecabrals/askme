@@ -4,9 +4,13 @@ Projeto de Perguntas e Respostas Q&A
 
 ### Contextos
 - Componentes, Propriedades, Estados;
+- Context API
+- Formulários
+
 
 ## Tecnologias utilizadas
 - ReactJs
+- Firebase
 
 ## Available Scripts
 
