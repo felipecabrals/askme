@@ -7,7 +7,16 @@
   & + .question {
     margin-top: 8px;
   }
+
   
+  &.highlighted {
+    background: #F5FFFE;
+    border: 1px solid #2196F3;
+  }
+  
+  &.answered {
+    background: #F1F0F0;
+  }
   p {
     color: #29292e;
   }
@@ -35,7 +44,11 @@
         font-size: 14px;
       }
     }
-    
+    > div {
+      display: flex;
+      gap: 16px;
+    }
+
     button {
       border: 0;
       background: transparent;
@@ -49,10 +62,10 @@
         gap: 8px;
 
         &.liked {
-          color: #835afd;
+          color: #2196F3;
 
           svg path {
-            stroke: #835afd;
+            stroke: #2196F3;
           }
         }
       }
